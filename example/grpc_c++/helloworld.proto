@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-syntax = "proto2";
+syntax = "proto3";
 
 package helloworld;
 
@@ -29,10 +29,10 @@ service Greeter {
 
 // The request message containing the user's name.
 message HelloRequest {
-  required string name = 1;
+  string name = 1;
 }
 
 // The response message containing the greetings
 message HelloReply {
-  required string message = 1;
+  string message = 1;
 }

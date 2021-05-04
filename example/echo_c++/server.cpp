@@ -20,6 +20,8 @@
 #include <gflags/gflags.h>
 #include <butil/logging.h>
 #include <brpc/server.h>
+#include <iostream>
+#include <stdio.h>
 #include "echo.pb.h"
 
 DEFINE_bool(echo_attachment, true, "Echo attachment as well");
@@ -74,6 +76,12 @@ public:
 }  // namespace example
 
 int main(int argc, char* argv[]) {
+
+    printf("hello word\n");
+    int a = 0;
+    a = a + 1;
+    std::cout<<"hello word" <<std::endl;
+    std::cout<<a<<std::endl; 
     // Parse gflags. We recommend you to use gflags as well.
     GFLAGS_NS::ParseCommandLineFlags(&argc, &argv, true);
 

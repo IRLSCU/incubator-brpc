@@ -17,7 +17,7 @@
 
 cmake_minimum_required(VERSION 2.8.10)
 project(echo_c++ C CXX)
-
+set(CMAKE_BUILD_TYPE Debug)
 option(LINK_SO "Whether examples are linked dynamically" OFF)
 
 execute_process(
@@ -61,7 +61,6 @@ if((NOT GFLAGS_INCLUDE_PATH) OR (NOT GFLAGS_LIBRARY))
     message(FATAL_ERROR "Fail to find gflags")
 endif()
 include_directories(${GFLAGS_INCLUDE_PATH})
-
 execute_process(
     COMMAND bash -c "grep \"namespace [_A-Za-z0-9]\\+ {\" ${GFLAGS_INCLUDE_PATH}/gflags/gflags_declare.h | head -1 | awk '{print $2}' | tr -d '\n'"
     OUTPUT_VARIABLE GFLAGS_NS
