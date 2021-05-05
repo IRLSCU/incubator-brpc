@@ -1,6 +1,0 @@
-Defaulting to user installation because normal site-packages is not writeable
-Looking in indexes: http://mirrors.aliyun.com/pypi/simple/, https://pypi.ngc.nvidia.com
-Collecting sphinx
-  Downloading http://mirrors.aliyun.com/pypi/packages/a3/e7/9af5e0766e801cf0ad64eedab70dcea17646c3a0d309980b25426ccc53ec/Sphinx-3.5.4-py3-none-any.whl (2.8 MB)
-Requirement already satisfied: Jinja2>=2.3 in /usr/lib/python3/dist-packages (from sphinx) (2.8)
-Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from sphinx) (20.7.0)
