@@ -12,8 +12,7 @@ Welcome to brpc-code-annotation's documentation!
 
    about
    api/library_root
-   README_cn.md
-   cn/baidu_std.md
+   cn/README_cn.md
    
 
 
