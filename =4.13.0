@@ -1,7 +1,0 @@
-Defaulting to user installation because normal site-packages is not writeable
-Looking in indexes: http://mirrors.aliyun.com/pypi/simple/, https://pypi.ngc.nvidia.com
-Collecting breathe
-  Downloading http://mirrors.aliyun.com/pypi/packages/e3/c8/fa23d82efc5b712f6994777d060bfdcad416fc69c17ac8d7eaac424468d3/breathe-4.29.2-py3-none-any.whl (84 kB)
-Requirement already satisfied: docutils>=0.12 in /home/wangpengcheng/.local/lib/python3.5/site-packages (from breathe) (0.16)
-Collecting Sphinx<5,>=3.0
-  Downloading http://mirrors.aliyun.com/pypi/packages/a3/e7/9af5e0766e801cf0ad64eedab70dcea17646c3a0d309980b25426ccc53ec/Sphinx-3.5.4-py3-none-any.whl (2.8 MB)
