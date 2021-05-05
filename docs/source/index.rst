@@ -7,12 +7,12 @@ Welcome to brpc-code-annotation's documentation!
 ================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Contents:
 
    about
-   api/library_root
    cn/README_cn.md
+   api/library_root
    
 
 

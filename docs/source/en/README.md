@@ -1,4 +1,4 @@
-[中文版](README_cn.md)
+[中文版](../cn/README_cn.md)
 
 [![Build Status](https://api.travis-ci.com/apache/incubator-brpc.svg?branch=master)](https://travis-ci.com/github/apache/incubator-brpc)
 
