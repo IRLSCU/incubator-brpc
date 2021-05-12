@@ -39,3 +39,9 @@ CTestTestfile.cmake
 
 # 
 !.vscode
+!docs/Makefile
+
+#doc 
+docs/source/doxyoutput/xml
+# 
+docs/source/api

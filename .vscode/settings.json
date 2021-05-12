@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/home/node/.conda/envs/consistent_depth/bin/python"
+    "python.pythonPath": "/home/node/.conda/envs/consistent_depth/bin/python",
+    "files.associations": {
+        "*.md": "markdown",
+        "*.cu": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
 }

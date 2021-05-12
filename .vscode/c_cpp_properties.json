@@ -3,8 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                // "${workspaceFolder}/src/**",
-                "${workspaceFolder}/build/output/include/**",
+                "${workspaceFolder}/src/**",
+                //"${workspaceFolder}/build/output/include/**",
                 "${workspaceFolder}/example/echo_c++/build/*"
             ],
             "defines": [],

@@ -1,3 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classexample_1_1EchoServiceImpl" kind="class"><name>example::EchoServiceImpl</name>
+    <member refid="classexample_1_1EchoServiceImpl_1ad797345b1e897fc6a087fb9472a3e123" kind="function"><name>EchoServiceImpl</name></member>
+    <member refid="classexample_1_1EchoServiceImpl_1a8244477b7cc76d5378e21e95af93f23c" kind="function"><name>~EchoServiceImpl</name></member>
+    <member refid="classexample_1_1EchoServiceImpl_1aaba32e45721c748704680f787818850e" kind="function"><name>Echo</name></member>
+  </compound>
+  <compound refid="namespaceexample" kind="namespace"><name>example</name>
+  </compound>
+  <compound refid="client_8cpp" kind="file"><name>client.cpp</name>
+    <member refid="client_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="server_8cpp" kind="file"><name>server.cpp</name>
+    <member refid="server_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_8e58bea0d5efbac9f9dde1a8c65a8a44" kind="dir"><name>/home/node/workspace/incubator-brpc/example/echo_c++</name>
+  </compound>
+  <compound refid="dir_cfafba98a580ce4b62f8a6fa96d7cbb0" kind="dir"><name>/home/node/workspace/incubator-brpc/example</name>
+  </compound>
+  <compound refid="dir_aff1a2aec6fa117591bf0c11faf8b017" kind="dir"><name>/home/node/workspace/incubator-brpc/example/echo_c++/src</name>
+  </compound>
 </doxygenindex>
