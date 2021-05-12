@@ -99,8 +99,13 @@ int64_t read_cpu_frequency(bool* invariant_tsc) {
 
     int64_t result = 0;
     char buf[4096];  // should be enough
+    // 读取数据内容
     const ssize_t n = read(fd, buf, sizeof(buf));
     if (n > 0) {
+        /**
+         * @brief 查找字符串指针
+         * ![通俗易懂说（C语言常用函数之）（2）memmem](https://blog.csdn.net/lqy971966/article/details/106127286)
+         */
         char *mhz = static_cast<char*>(memmem(buf, n, "cpu MHz", 7));
 
         if (mhz != NULL) {

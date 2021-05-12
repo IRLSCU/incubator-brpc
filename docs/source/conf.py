@@ -101,7 +101,7 @@ exhale_args = {
     # TIP: if using the sphinx-bootstrap-theme, you need
     # "treeViewIsBootstrap": True,
     "exhaleExecutesDoxygen": True,
-    "exhaleDoxygenStdin":    "INPUT = ../build/output/include/brpc"
+    "exhaleDoxygenStdin":    "INPUT =../../example/echo_c++/src"
 }
 
 # Tell sphinx what the primary language being documented is.
